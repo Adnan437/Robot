@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    background-color: aliceblue;
+    height: 620px;
+    width: 100%;
+    position: absolute;
+}
+
+.robot {
+    /* height: 100px;
+    width: 100px; */
+    border: 6px solid black;
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+}
+
+.head {
+    /* border-radius: 50%; */
+    height: 80px;
+    width: 100px;
+    top: 25%;
+    left: 45%;
+    /* border-radius: 10px; */
+}
+
+.neck {
+    height: 25px;
+    width: 30px;
+    top: 28%;
+    left: 40%;
+    background-color: black;
+}
+
+.left-ear {
+    height: 40px;
+    width: 20px;
+    top: 15%;
+    left: 33.6%;
+    background-color: black;
+
+}
+
+.right-ear {
+    height: 40px;
+    width: 20px;
+    top: 15%;
+    left: 40%;
+    background-color: black;
+
+}
+
+.left-eye {
+    height: 20px;
+    width: 20px;
+    top: 110px;
+    left: 440px;
+    border-radius: 50%;
+
+}
+
+.right-eye {
+    height: 20px;
+    width: 20px;
+    top: 110px;
+    left: 460px;
+    border-radius: 50%;
+
+}
+
+.mouth {
+    height: 20px;
+    width: 40px;
+    top: 140px;
+    left: 405px;
+}
+
+
+.body {
+    top: 52%;
+    left: 22.5%;
+    height: 150Px;
+    width: 160px;
+}
+
+.chest {
+    top: 300px;
+    left: 170px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.left-shoulder {
+    height: 30px;
+    width: 30px;
+    top: 220px;
+    left: 10px;
+    background-color: black;
+}
+
+.right-shoulder {
+    height: 30px;
+    width: 30px;
+    top: 220px;
+    left: 160px;
+    background-color: black;
+}
+
+.left-hand {
+    height: 150px;
+    width: 30px;
+    top: 325px;
+    left: -85px;
+}
+
+.right-hand {
+    height: 150px;
+    width: 30px;
+    top: 325px;
+    left: 119px;
+}
+
+.left-leg {
+    height: 100px;
+    width: 30px;
+    top: 415px;
+    left: -80px;
+}
+
+.right-leg {
+    height: 100px;
+    width: 30px;
+    top: 415px;
+    left: -25px;
+}
+
+.left-foot {
+    height: 25px;
+    width: 60px;
+    top: 435px;
+    left: -165px;
+    background-color: black;
+}
+
+.right-foot {
+    height: 25px;
+    width: 60px;
+    top: 435px;
+    left: -140px;
+    background-color: black;
+
+}
